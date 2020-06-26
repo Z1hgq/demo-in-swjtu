@@ -1,0 +1,289 @@
+@CHARSET "UTF-8";
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f2f2f2;
+  overflow-y: auto;
+}
+
+body {
+  font: 14px Tahoma;
+  text-align: center;
+}
+
+p {
+  font-family: 微软雅黑； font-size:20px;
+}
+
+p.vlan {
+  font-family: 微软雅黑;
+  font-size: 20px;
+}
+
+#header {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+  height: 100px;
+  background: #f2f2f2;
+  text-align: left;
+}
+
+#Title {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 400;
+  height: 80;
+  font-family: 方正舒体;
+  font-size: 38px;
+  color: #000;
+  float: left;
+}
+
+#Menu {
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  width: 624px;
+  height: 50;
+  margin: 0 auto;
+  background: #f2f2f2;
+  color: #999;
+  font-family: 方正兰亭超细黑简体;
+  font-size: 16px;
+}
+
+#Menu ul {
+  list-style: none;
+}
+
+#Menu ul li {
+  float: left;
+  padding-left: 60px;
+}
+
+#Menu a {
+  text-decoration: none;
+  border-style: none;
+}
+
+#Menu a:link, a:visited {
+  color: #000;
+}
+
+#Menu a:hover, a:active {
+  color: #999;
+}
+
+#MainBody {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#firpage {
+  position: relative;
+  width: 963px;
+  margin: 0 auto;
+  padding-left: 61px;
+  padding-top: 30px;
+  height: 470px;
+  text-align: left;
+}
+
+#ResearchPage {
+  position: relative;
+  width: 963px;
+  margin: 0 auto;
+  padding-left: 61px;
+  padding-top: 30px;
+  height: 800px;
+  text-align: left;
+}
+
+#vlansetRight {
+  position: absolute;
+  width: 400px;
+  height: 475px;
+  right: 60px;
+  top: 25px;
+  margin: 0 auto;
+  text-align: left;
+  background: #FFF;
+  border-left: 2px solid #f2f2f2;
+}
+
+#vlansetLetf {
+  position: relative;
+  width: 963px;
+  height: 500px;
+  margin: 0 auto;
+  font-family: 微软雅黑;
+  padding-top: 20px;
+  padding-left: 61px;
+  text-align: left;
+  background: #FFF;
+}
+
+#Step {
+  position: relative;
+  width: 963px;
+  margin: 0 auto;
+  padding-left: 61px;
+  height: 380px;
+  text-align: left;
+}
+
+#PageSwitch {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+  height: 34px;
+  text-align: center;
+}
+
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+ul.pagination li {
+  display: inline;
+}
+
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+ul.pagination li a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+ul.pagination li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+#line1 {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+  height: 4px;
+  border-top: 3px solid #f2f2f2
+}
+
+#RightBody {
+  position: relative;
+  width: 512px;
+  height: 200px;
+  float: right;
+  margin: 0 auto;
+  background: #FFF;
+}
+
+#Right {
+  position: absolute;
+  width: 468px;
+  height: 180px;
+  left: 0px;
+  float: left;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-top: 20px;
+  text-align: left;
+  background: #FFF;
+}
+
+#line2 {
+  position: absolute;
+  width: 4;
+  margin: 0 auto;
+  left: 0px;
+  height: 140px;
+  top: 30px;
+  float: left;
+  border-right: 3px solid #f2f2f2;
+  background: #FFF;
+}
+
+#LeftBody {
+  position: absolute;
+  width: 512px;
+  height: 180px;
+  float: left;
+  margin: 0 auto;
+  font-family: 微软雅黑;
+  padding-top: 20px;
+  padding-left: 150px;
+  text-align: left;
+  background: #FFF;
+}
+
+#ping_left_up {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  width: 554px;
+  margin: 0 auto;
+  height: 359px;
+  text-color: #000;
+  float: left;
+  text-align: left;
+}
+
+#ping_left_bottom {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 554;
+  height: 179px;
+  background: #fff;
+  color: #000;
+  font-family: 微软雅黑;
+  float: left;
+  font-size: 18px;
+}
+
+#ping_right_up {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 468px;
+  height: 24px;
+  background: #fff;
+  font-weight: bold;
+  float: right;
+  color: #000;
+  border: 1px #000 solid;
+}
+
+#ping_right_down {
+  position: absolute;
+  top: 5px;
+  left: 554px;
+  width: 468px;
+  height: 530px;
+  text-align: left;
+  background: rgb(29, 31, 33);
+  border-top: 1px #000 solid;
+  color: #fff;
+}
+
+#Footer {
+  position: relative;
+  top: 0px;
+  width: 1024px;
+  height: 0px;
+  margin: 0 auto;
+  background: #f2f2f2;
+}
